@@ -1,0 +1,51 @@
+/* ==========================
+   AI‑генерированный дизайн (Open Sans, пастельные тона)
+   ========================== */
+
+:root {
+    --primary:#6b5b95;      /* Фиолетовый акцент */
+    --secondary:#f7f9fc;    /* Светлый фон */
+    --accent:#ff8c00;       /* Оранжевый для кнопок/подсветки */
+    --text:#333;
+}
+
+* {
+    margin:0; padding:0; box-sizing:border-box;
+    font-family:'Open Sans', sans-serif;
+}
+
+body {
+    background-color:var(--secondary);
+    color:var(--text);
+    line-height:1.6;
+}
+
+/* Хедер */
+.hero {
+    text-align:center;
+    padding:4rem 2rem;
+    background:url('https://source.unsplash.com/1600x900/?bag') no-repeat center/cover;
+    color:white;
+}
+.hero h1 { font-size:3rem; margin-bottom:.5rem; }
+.hero p   { font-size:1.25rem; }
+
+/* Карточки */
+.card {
+    max-width:800px;
+    margin:2rem auto;
+    background:white;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,.05);
+    overflow:hidden;
+}
+.card h2 { padding:1.5rem; font-size:1.75rem; color:var(--primary); }
+.card img { width:100%; height:auto; display:block; }
+.card p   { padding:1rem 1.5rem; }
+
+/* Footer */
+footer {
+    text-align:center;
+    padding:2rem;
+    background:#e0e4ea;
+}
